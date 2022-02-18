@@ -1,7 +1,7 @@
  import java.util.*;
  
 /**
-* This program displays a type of data input for the reader.
+* program ini dibuat untuk jenis tipe tiap data.
 * @version 11.02.2022
 */
  
