@@ -11,8 +11,8 @@ package week9;
 
 public class Commission extends Hourly {
 
-    double totalSales;
-    double rateComission;
+    private double totalSales;
+    private double rateComission;
 
     public Commission(String eName, String eAddress, String ePhone, String SocSecNumber, double rate, double comrate){
         super(eName, eAddress, ePhone, SocSecNumber, rate );
@@ -30,8 +30,6 @@ public class Commission extends Hourly {
         return payment;
         
     }
-
-    @Override
 
     public String toString(){
         String result = super.toString();
